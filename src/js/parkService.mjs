@@ -1,4 +1,5 @@
-const park = {
+
+  const park = {
   id: "F58C6D24-8D10-4573-9826-65D42B8B83AD",
   url: "https://www.nps.gov/yell/index.htm",
   fullName: "Yellowstone National Park",
@@ -179,6 +180,6 @@ const park = {
   designation: "National Park"
 };
 
-export function getParkData() {
+  export function getParkData() {
   return park;
 }
